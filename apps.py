@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all domains
 
-model_path = "C:/Users/Hasbi/Desktop/skripsi_gpu/skripsi/Skripsi_UI/Hasbi-Coffee-Bean-99.37.keras"
+model_path = "./Hasbi-Coffee-Bean-99.37.keras"
 model = load_model(model_path, compile=False)
 
 
